@@ -3,7 +3,7 @@ import express from 'express'
 const app = express();
 
 app.get('/',(req,res)=>{
-    console.log(`Express vercel app running`);
+    console.log(`Express vercel app`);
 })
 
 app.listen(4000,(req,res)=>{
